@@ -1,5 +1,6 @@
 console.log("Sample JavaScript #3 HW #17");
 
+console.log(`---------------- Task 1---------------`);
 /*
  * #1
  *
@@ -33,15 +34,7 @@ console.log(counter(0)); // 0
 
 console.log(counter()); // 1
 
-// let counter = (function () {
-//   let count = 0;
-
-//   return function (num) {
-//     count = num === undefined ? count : num;
-
-//     return count++;
-//   };
-// }());
+console.log(`---------------- Task 2---------------`);
 
 /*
  * #2
@@ -53,6 +46,16 @@ console.log(counter()); // 1
  * counting.increment() – увеличивает значение счетчика на 1
  * counting.decrement() – уменьшает значение счетчика на 1
  */
+
+// function logPerson() {
+//   console.log(`Person: ${this.name}; ${this.age}; ${this.gender}`);
+// }
+
+// const person1 = { name: "John", age: 25, gender: "male" };
+// const person2 = { name: "Mary", age: 20, gender: "female" };
+
+// bind(person1, logPerson);
+// bind(person2, logPerson);
 
 // console.log(counting.value()); // 0
 
